@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.header {
+    background-color: lightgreen; /* "Verde claro" corregido a valor CSS valido */
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 7px;
+    padding: 20px 0;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+img {
+    display: block; /* Permite centrar la imagen con margin auto */
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+}
+
+h2 {
+    color: yellow; /* "Amarillo" corregido a valor CSS valido */
+    font-size: 50px;
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+    padding: 10px 14px;
+    border: 1px solid blue;
+    color: blue;
+}
+
+form {
+    text-align: center; /* Centra los insumos del formulario */
+    margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Controla el espacio entre cada input */
+  max-width: 300px; /* Opcional: limita el ancho del formulario */
+}
+
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
